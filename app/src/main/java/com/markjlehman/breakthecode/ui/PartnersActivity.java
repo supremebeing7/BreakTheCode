@@ -1,6 +1,8 @@
 package com.markjlehman.breakthecode.ui;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -40,6 +42,13 @@ public class PartnersActivity extends Activity {
             public void onClick(View view) {
                 mCurrentPartner = mPartnerLib.nextPartner(mCurrentPartner);
                 setLayoutContent();
+            }
+        });
+        mPartnerImage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent viewWebsite = new Intent(Intent.ACTION_VIEW, Uri.parse(mCurrentPartner.getmWebsite()));
+                startActivity(viewWebsite);
             }
         });
     }
