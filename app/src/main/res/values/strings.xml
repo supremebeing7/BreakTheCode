@@ -8,5 +8,13 @@ Supporting women in tech has always been a top priority for Epicodus. Since our 
 
 Through partnerships with Portland-based tech companies and women-focused nonprofit organizations, Epicodus wants to help start a productive dialogue and create a more supportive environment for women choosing careers in programming. </string>
     <string name="action_settings">Settings</string>
+    <string name="enroll_button">Enroll</string>
+    <string name="sponsors_button">Sponsors</string>
+    <string name="partners_button">Partners</string>
+    <string name="title_activity_enroll">Enroll Activity</string>
+    <string name="title_activity_sponsors">Sponsors Activity</string>
+    <string name="title_activity_partners">Partners Activity</string>
+    <string name="app_camp_title">App Camp For Girls</string>
+    <string name="app_camp_description">App Camp For Girls is a place where girls can put their creative powers to work, designing and building apps, while learning more about the business of software and being inspired by women mentors in the field.</string>
 
 </resources>
