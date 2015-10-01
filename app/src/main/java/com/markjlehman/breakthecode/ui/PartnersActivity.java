@@ -32,7 +32,7 @@ public class PartnersActivity extends Activity {
 
         mNameLabel = (TextView) findViewById(R.id.nameLabel);
         mDescriptionLabel = (TextView) findViewById(R.id.descriptionLabel);
-        mPartnerImage = (ImageView) findViewById(R.id.partnerImage);
+        mPartnerImage = (ImageView) findViewById(R.id.submitButton);
         mNextButton = (Button) findViewById(R.id.nextPartnerButton);
         mPartnerLib = new PartnerLib();
         mCurrentPartner = mPartnerLib.getPartners().get(0);
