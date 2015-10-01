@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:text="@string/app_name"
+        android:id="@+id/breakTheCode"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:background="#ff273a71"
+        android:gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/breakTheCode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/break_the_code_body"
+            android:id="@+id/breakTheCodeBody"
+            android:layout_below="@+id/scrollView"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="false"
+            android:textSize="30sp" />
+    </ScrollView>
+
+</RelativeLayout>
