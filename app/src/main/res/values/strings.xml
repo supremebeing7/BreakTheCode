@@ -16,5 +16,6 @@ Through partnerships with Portland-based tech companies and women-focused nonpro
     <string name="title_activity_partners">Partners Activity</string>
     <string name="app_camp_title">App Camp For Girls</string>
     <string name="app_camp_description">App Camp For Girls is a place where girls can put their creative powers to work, designing and building apps, while learning more about the business of software and being inspired by women mentors in the field.</string>
+    <string name="next_partner">Next Partner</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.markjlehman.breakthecode;
+package com.markjlehman.breakthecode.ui;
 
 import android.app.Activity;
 import android.os.Bundle;

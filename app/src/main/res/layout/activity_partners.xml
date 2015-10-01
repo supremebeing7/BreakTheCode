@@ -6,12 +6,12 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.markjlehman.breakthecode.PartnersActivity">
+    tools:context="com.markjlehman.breakthecode.ui.PartnersActivity">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/appCampImage"
+        android:id="@+id/partnerImage"
         android:src="@drawable/app_camp_for_girls"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="false" />
@@ -20,9 +20,9 @@
         android:text="@string/app_camp_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/appCampTitle"
+        android:id="@+id/nameLabel"
         android:textAppearance="@android:style/TextAppearance.Large"
-        android:layout_below="@+id/appCampImage"
+        android:layout_below="@+id/partnerImage"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
@@ -30,11 +30,20 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app_camp_description"
-        android:id="@+id/appCampDescription"
+        android:id="@+id/descriptionLabel"
         android:layout_marginTop="62dp"
         android:textAppearance="@android:style/TextAppearance.Large"
-        android:layout_below="@+id/appCampImage"
+        android:layout_below="@+id/partnerImage"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_partner"
+        android:id="@+id/nextPartnerButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
